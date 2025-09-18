@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project 1 — Atlantis · Hannah Du</title>
+  <meta name="description" content="COMP4461 Project 1 — Making HKUST more friendly for visiting students from Atlantis. Portfolio page by Hannah Du (UW → HKUST CSE)." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧜‍♀️</text></svg>">
+  <style>
+    :root{
+      --bg:#100b0f; --text:#eef2ff; --muted:#ce8db0; --card:#1a1118; --line:#ffffff22; --accent:#9477ca; --accent2:#ef8cb5;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial;line-height:1.6;color:var(--text);background:var(--bg)}
+    a{color:#9bdcff;text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    header{position:sticky;top:0;z-index:50;background:linear-gradient(180deg,#100b0fcc,#100b0f80 70%,transparent);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+    .container{max-width:960px;margin:0 auto;padding:20px}
+    .back{display:inline-block;margin-top:4px}
+    h1{margin:6px 0 0}
+    h2{margin:20px 0 8px}
+    .muted{color:var(--muted)}
+
+    .meta{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 0}
+    .chip{border:1px solid var(--line);padding:4px 8px;border-radius:999px;color:#cdb9c8;font-size:12px}
+
+    section{border-top:1px solid var(--line);padding:22px 0}
+
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;}
+    figure{margin:0}
+    figure>img{width:100%;height:auto;display:block;border-radius:10px}
+    figcaption{color:#c9a5b7;font-size:.9rem;margin-top:6px}
+
+    .two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    align-items: stretch;                 
+    }
+
+    .two > .card {
+    display: flex;
+    flex-direction: column;                
+    justify-content: flex-start;          
+    gap: 10px;
+    padding: 20px 22px;                   
+    border-radius: 16px;                  
+    }
+
+    .two > .card h3 {
+    margin: 0 0 8px;
+    line-height: 1.25;
+    }
+
+    .two > .card p {
+    margin: 0;                           
+    }
+
+    .two > .card ul {
+    margin: 4px 0 0;
+    padding-left: 1.1rem;                 
+    }
+
+    .two > .card li {
+    margin: 6px 0;                        
+    }
+
+    @media (max-width: 760px) {
+    .two {
+        grid-template-columns: 1fr;
+    }
+    .two > .card {
+        padding: 18px 16px;
+        gap: 8px;
+    }
+    }
+    
+    .quicklinks {
+    display: block;        
+    margin-top:10px;       
+    }
+
+    #comingsoon{opacity:.5;filter:grayscale(60%);pointer-events:none;user-select:none;font-style:italic;border:1px dashed #ffffff22;border-radius:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a class="back" href="../index.html">← Back to Portfolio</a>
+      <h1>Project 1 — Making HKUST More Friendly for Visiting Students from Atlantis</h1>
+      <p class="muted">COMP 4461 · Human–Computer Interaction · Hannah Du</p>
+      <div class="meta">
+        <span class="chip">Role: Needfinding, Ideation, Mindmap Creation</span>
+        <span class="chip">Team Awesome </span>
+        <span class="chip">Tools: Google Docs, GoodNotes</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Intro -->
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        As HKUST welcomes visiting mermaid students from the underwater kingdom of Atlantis, the challenge is to adapt a land‑based campus to their aquatic physiology, social habits, and cultural practices. This page introduces the project and links to the diary sections documenting my process and reflection.
+      </p>
+      <div class="card">
+        <strong style="margin:15px" class="quicklinks">Quick links</strong>
+        <ul>
+          <li><a href="#description">Project description & goal</a></li>
+          <li><a href="#process">Learning & execution process</a></li>
+          <li><a href="#contributions">My contributions & milestones</a></li>
+          <li><a href="#reflection">Personal reflection</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Description & Goal -->
+    <section id="description">
+      <h2>Description & Goal</h2>
+      <p><strong>POV:</strong> A mermaid exchange student from Atlantis needs water‑based infrastructure and learning tools because their anatomy and living habits are incompatible with dry, stair‑filled, screen-based campus life. They need to be able to focus on their education and comfortably live in HK, especially being able to seamlessly order food from our cafeteria kiosks.</p>
+      <div class="two">
+        <div class="card">
+          <h3>Needs & Obstacles</h3>
+          <ul>
+            <li><strong>Mobility:</strong> Escalators/stairs/long paths; need waterslides, swim tubes, water elevators.</li>
+            <li><strong>Academic:</strong> Paper gets wet; laptops short‑circuit; require waterproof devices.</li>
+            <li><strong>Health:</strong> Dry air leads to dehydration; seawater hydration stations in bathrooms.</li>
+            <li><strong>Social:</strong> Limited aquatic cuisine; mostly land‑centric sports & clubs on campus.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Project Goal</h3>
+          <p>Design campus policies, infrastructure, and interaction tools that enable mermaid students to thrive academically, socially, and culturally—prioritizing <em>accessible ordering</em> workflows at kiosks as our first prototype area.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process">
+      <h2>Learning & Execution Process</h2>
+      <div class="two">
+        <div>
+          <h3>Needfinding</h3>
+          <ul>
+            <li>Mapped user physiology (wet fingertips, tails, water dependence) and abilities (can breathe on land, strong swimmers).</li>
+            <li>Identified pain points across mobility, academics, health, and social integration.</li>
+          </ul>
+          <h3>Ideation</h3>
+          <ul>
+            <li>Infrastructure: Water filled tunnels, waterslides, swim tubes, water elevators, hydration domes.</li>
+            <li>Social & cultural: Aquatic dining halls, intercultural sports, hybrid land‑sea events.</li>
+            <li>Tools: Waterproof laptops/tablets, water scooters for long commutes, <strong>waterproof stylus and kiosk flow</strong> for wet hands (focus for P1).</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Evidence (Mind Map)</h3>
+          <figure class="card">
+            <img src="../assets/atlantis-mindmap.png" alt="Mind map of mermaid user characteristics, obstacles, and solution directions including kiosk stylus focus" />
+            <figcaption>Mind map highlighting wet‑hand input issues and the cafeteria kiosk concept.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contributions & milestones -->
+    <section id="contributions">
+      <h2>My Contributions & Milestones</h2>
+      <div class="card" style="margin-bottom: 20px;">
+        <ul>
+          <li><strong>Framed POV for the mermaids' interests</strong> around water‑based infrastructure and input methods for wet fingers.</li>
+          <li><strong>Structured needfinding</strong> into four domains (Mobility, Academic, Health, Social) to guide ideation.</li>
+          <li><strong>Drew POV mind map by hand</strong> to visualize our ideation and further develop our prioritized ideas.</li>
+          <li><strong>Developed kiosk interaction</strong> with waterproof stylus + enlarged targets + moisture‑robust touch settings.</li>
+        </ul>
+      </div>
+      <div class="two">
+        <div class="card">
+          <h3>Milestone 1 — Needfinding</h3>
+          <p>Understood our user (mermaids from Atlantis); produced the mind map about the user's abilities, obstacles, and needs.</p>
+        </div>
+        <div class="card">
+          <h3>Milestone 2 — Concept Focus</h3>
+          <p>Narrowed down our ideas to prioritize waterproof ordering kiosks + special stylus for wet hands.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reflection -->
+    <section id="reflection">
+      <h2>Personal Reflection</h2>
+      <div class="card">
+        <p style="margin: 15px;">
+          This exercise pushed me to translate whimsical constraints into concrete HCI requirements. I learned to separate systemic infrastructure ideas from interaction‑level improvements and to select a feasible entry point (kiosk ordering) where usability gains can be measured early.
+        </p>
+        <ul>
+          <li><strong>Knowledge gained:</strong> Mapping physiology → interaction constraints; thinking across policy, space, and UI.</li>
+          <li><strong>Lessons learned:</strong> Anchor ideation with a POV, then scope to a testable slice; document evidence at each step.</li>
+          <li><strong>Potential Next Steps:</strong> Low‑fi kiosk wireflows, stylus ergonomics for wet grip, and task‑based evaluations.
+        </li></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container" style="border-top:1px solid var(--line);color:#c9a5b7">© <script>document.write(new Date().getFullYear())</script> Hannah Du · COMP 4461</footer>
+</body>
+</html>
